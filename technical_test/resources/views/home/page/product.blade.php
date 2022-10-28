@@ -34,14 +34,19 @@
                                 <th scope="col">Quantity</th>
                                 <th scope="col">Satuan</th>
                                 <th scope="col">Status</th>
-                                <th scope="col" class="td-width">Opsi</th>
                             </tr>
                         </thead>
                         <tbody class="th-table">
-                            <tr>
-                                <td></td>
-                                <td></td>
-                            </tr>
+                            @foreach ($products as $product)
+                                <tr>
+                                    <td>{{$product->nik}}</td>
+                                    <td>{{$product->name}}</td>
+                                    <td>{{$product->productBarang->nama_barang}}</td>
+                                    <td>{{$product->qty}}</td>
+                                    <td>{{$product->satuan}}</td>
+                                    <td>{{$product->status}}</td>
+                                </tr>
+                            @endforeach
                         </tbody>
                     </table>
                 </div>

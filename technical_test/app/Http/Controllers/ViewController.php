@@ -19,11 +19,13 @@ class ViewController extends Controller
     {
         $users = User::get();
         $daftarProducts = DaftarProduct::get();
+        $products = Product::with('productBarang')->get();
+        
         if ($request->ajax()) {
             return response()->json(['dataUsers' => $users, 'dataBarang' => $daftarProducts]);
         }
 
-        return view('home.page.product', compact('users', 'daftarProducts'));
+        return view('home.page.product', compact('users', 'daftarProducts', 'products'));
     }
 
     public function store_product(Request $request)
