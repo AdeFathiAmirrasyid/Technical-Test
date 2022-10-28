@@ -1,0 +1,35 @@
+let sidebar = document.querySelector(".sidebar");
+let closeBtn = document.querySelector("#btn");
+let navbar_nav = document.querySelector(".navbar-nav");
+let searchBtn = document.querySelector(".bx-search");
+
+closeBtn.addEventListener("click", () => {
+    sidebar.classList.toggle("open");
+    navbar_nav.classList.toggle("open");
+    menuBtnChange(); //calling the function(optional)
+});
+
+// following are the code to change sidebar button(optional)
+function menuBtnChange() {
+    if (sidebar.classList.contains("open")) {
+        closeBtn.classList.replace("bx-menu", "bx-menu-alt-right"); //replacing the iocns class
+    } else {
+        closeBtn.classList.replace("bx-menu-alt-right", "bx-menu"); //replacing the iocns class
+    }
+}
+
+// Add table dinamis
+$(document).ready(function () {
+    let i = 1;
+    let template = jQuery.validator.format($.trim($("#addChild").html()));
+    $("#add-form-data").click(function () {
+        $(template(i++)).appendTo("#add-data");
+    });
+
+    $(document).on("click", "#remove", function () {
+        $(this).closest(".remove-form").remove();
+    });
+});
+
+
+

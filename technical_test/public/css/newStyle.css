@@ -1,0 +1,499 @@
+/* ========== General Start ========== */
+.btn-delete,
+.btn-edit {
+    border: 0;
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: #fff;
+    background-color: #b41414;
+}
+.btn-logout {
+    border: none;
+    background-color: transparent;
+    margin-right: 10px;
+}
+.btn-edit {
+    background-color: #fcb722;
+    margin-right: 3px;
+}
+.btn-edit:hover {
+    background-color: #e4a111;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.btn-add {
+    text-align: center;
+    border: 0;
+    color: #fff;
+    padding: 10px 20px;
+    background-color: #294b9b;
+    text-decoration: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn-add:hover {
+    transition: 0.3s;
+    background-color: #0a328d;
+}
+/* ========== General End ========== */
+
+/* ========== Dashboard Start ========== */
+.breadcrumb {
+    background-color: transparent !important;
+    padding: 0 !important;
+}
+.text-dashboard {
+    margin-left: 48px;
+}
+.parent-dashboard {
+    background-color: var(--bg-white);
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.parent-dashboard .icon-dashboard i {
+    font-size: 40px;
+    line-height: 80px;
+}
+
+.parent-dashboard .icon-dashboard {
+    margin-top: 10px;
+}
+
+.parent-dashboard .title-dashboard {
+    margin: 5px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.parent-dashboard .title-dashboard h2 {
+    color: #ec8d00;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.parent-dashboard .title-dashboard p {
+    font-family: "Merriweather";
+    font-size: 16px;
+    margin-top: -10px;
+    font-weight: 400;
+}
+/* ========== Dashboard End ========== */
+
+/* ========== HomePage Start ========== */
+.card-body p {
+    font-family: "Merriweather";
+    font-size: 14px;
+    color: var(--text-black-700);
+    margin-bottom: 30px;
+}
+
+a:hover {
+    text-decoration: none !important;
+}
+.rectangle p {
+    border-radius: 10px;
+    background-color: var(--bg-white);
+    font-weight: 400;
+    padding: 10px 20px;
+    margin-top: -10px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+
+.title-slideshow p {
+    font-family: "Merriweather";
+    font-weight: 700;
+    color: var(--text-black-900);
+    font-size: 24px;
+}
+
+.title-fakultas {
+    font-size: 16px;
+    font-family: "Merriweather";
+}
+
+.bg-slideshow {
+    background-color: var(--bg-white);
+    border-radius: 10px;
+}
+
+.bg-slideshow form {
+    padding: 20px 30px;
+}
+
+.title {
+    font-size: 14px;
+    color: var(--text-black-900);
+}
+
+trix-editor {
+    font-size: 16px;
+    color: var(--text-black-700);
+    max-height: 500px;
+    overflow-y: scroll;
+}
+
+.home-section .text-title {
+    color: var(--text-black);
+    font-size: 25px;
+    font-weight: 500;
+    display: inline-block;
+    width: 80%;
+    margin: 0 18px 0 81px;
+}
+
+.home-section .text-title-1 {
+    color: var(--text-black);
+    font-size: 25px;
+    font-weight: 500;
+    display: inline-block;
+    width: 95%;
+    margin: 0 0px 0 81px;
+}
+
+.btn-copy {
+    border: 0;
+    background-color: #294b9b;
+    color: var(--bg-white);
+    padding: 8px 15px;
+    margin-left: 10px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.btn-copy:hover {
+    background-color: #0e2c70;
+    color: var(--bg-white);
+}
+
+.btn-remove-js#remove {
+    width: 41px;
+    background-color: #294b9b;
+}
+
+.btn-remove-js#remove:hover {
+    background-color: #0e2c70;
+}
+
+.btn-remove-js i {
+    color: var(--bg-white);
+}
+
+.error {
+    color: red;
+    border-color: red !important;
+}
+
+.title-prodi {
+    font-family: "Merriweather";
+    color: var(--text-black);
+    font-size: 28px;
+    font-weight: 500;
+}
+
+label.error {
+    position: absolute;
+    margin-top: -20px;
+    font-size: 12px;
+    font-family: "Merriweather";
+}
+
+.home-section .home-dashboard {
+    display: inline-block;
+    width: 70%;
+    margin: 0 0 0 63px;
+}
+
+.home-section .text-title2 {
+    color: var(--text-black);
+    font-size: 25px;
+    font-weight: 500;
+    margin: 100px 18px 0 52px;
+}
+
+.btn-upload,
+.btn-batal {
+    border: 0;
+    color: var(--bg-white);
+    padding: 10px 30px;
+    font-weight: 100;
+    background-color: var(--text-black-700);
+    text-decoration: none;
+    border-radius: 10px;
+}
+.btn-upload {
+    background-color: var(--text-black);
+}
+
+.btn-upload:hover {
+    color: var(--bg-white);
+    background-color: #0e2c70;
+    transition: all 0.5s ease;
+}
+
+.btn-batal:hover {
+    background-color: #30425a;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.card-body .btn-update {
+    border: 1px solid var(--text-black);
+    font-size: 12px;
+    border-radius: 8px;
+    float: right;
+    color: var(--bg-white);
+    text-decoration: none;
+    background-color: var(--text-black);
+    padding: 8px 20px;
+}
+
+.card-body .btn-update:hover {
+    color: var(--bg-white);
+    background-color: var(--text-black-200);
+    transition: all 0.5s ease;
+}
+/* ========== HomePage End ========== */
+/* ========== Profil Fakultas Start ========== */
+.btn-cari,
+.btn-create {
+    border-radius: 6px;
+    background-color: var(--text-black);
+    color: var(--bg-white);
+    font-size: 16px;
+    text-decoration: none;
+    padding: 8px 15px;
+}
+.btn-create {
+    float: right;
+}
+.btn-create span {
+    font-size: 16px;
+    font-weight: 100;
+}
+.btn-cari {
+    border: none;
+    padding: 0 12px;
+    font-size: 15px;
+}
+
+.btn-cari:hover,
+.btn-create:hover {
+    background-color: #0a328d;
+    color: #fff;
+    transition: 0.6s;
+}
+
+.btn-search input {
+    border: 1px solid var(--text-black-700);
+    border-radius: 10px;
+}
+
+.home-section .bg-table-white {
+    background-color: var(--bg-white);
+    border-radius: 10px;
+    margin-left: -20px;
+}
+
+.home-section .table-padding {
+    padding: 10px 20px;
+}
+.bg-table {
+    font-weight: 600;
+    font-family: Poppins;
+    background-color: #294b9b;
+    font-size: 14px;
+    color: #fff;
+}
+
+.th-table {
+    font-weight: 400;
+    font-family: Poppins;
+    font-size: 14px;
+}
+
+.td-width {
+    width: 120px;
+}
+
+.bg-warning:hover {
+    color: var(--bg-white);
+}
+
+.dot-yellow {
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    background-color: #e4a111;
+    border-radius: 50%;
+    right: 47px;
+}
+
+.message {
+    width: 260px;
+    height: auto;
+    position: absolute;
+    margin-top: 10px;
+    right: 80px;
+    background-color: var(--bg-white);
+    box-shadow: 0 0px 10px rgba(48, 46, 77, 0.2);
+    display: none;
+}
+
+.message ul {
+    padding-left: 0;
+}
+
+.message ul li {
+    margin: 5px 10px;
+    background-color: #ddd;
+    border-radius: 10px;
+    list-style: none;
+}
+
+.message ul li h6 {
+    font-family: "Merriweather";
+    padding-top: 10px;
+    font-size: 12px;
+    margin: 10px 20px 10px 20px;
+}
+
+.message ul li p {
+    padding: 5px 20px;
+}
+
+.message ul a {
+    display: flex;
+    justify-content: center;
+    color: #0a328d;
+    font-size: 14px;
+}
+
+.message ul a:hover {
+    color: #0e2c70;
+    transition: all 0.5s ease;
+}
+
+.active {
+    color: #0a328d !important;
+}
+
+.btn-group ul li a:hover {
+    background-color: #0a328d;
+    color: var(--bg-white);
+}
+
+.btn-group ul li a {
+    font-size: 14px;
+}
+
+.btn-logout {
+    font-size: 14px;
+    text-align: start;
+    padding-left: 25px;
+    padding-top: 2px;
+    width: 100%;
+}
+
+.btn-logout:hover {
+    background-color: #0a328d;
+    color: var(--bg-white);
+}
+/* ========== Profil Fakultas End ========== */
+
+/* ======* Pagination *====== */
+p.text-page {
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 16px;
+    color: #294b9b !important;
+}
+
+a.page-link,
+span.page-link {
+    margin: 0 5px;
+    border-radius: 10px;
+    border: 1.5px solid #4b5f77;
+
+    font-family: "Poppins";
+    color: #4b5f77;
+    font-weight: 400;
+    font-size: 16px;
+    cursor: pointer;
+}
+.page-item:not(:first-child) .page-link {
+    margin-left: 2px;
+}
+a.page-link:hover,
+span.page-link:hover {
+    border: 1.5px solid #4b5f77;
+    background-color: #fff;
+    color: #4b5f77;
+}
+
+.page-item.active .page-link {
+    background-color: #294b9b;
+}
+
+@media screen and (min-width: 1360px) {
+    /* ======*  Menu Mobile *====== */
+    .card-login {
+        padding: 90px 50px;
+    }
+    /* ======* Akhir Menu Mobile *====== */
+}
+
+@media screen and (min-width: 1600px) {
+    /* ======*  Menu Mobile *====== */
+    .card-login {
+        padding: 120px 50px;
+    }
+    /* ======* Akhir Menu Mobile *====== */
+}
+/* ======* Akhir Pagination *====== */
+
+/* ========== Scrollbar Start ========== */
+html::-webkit-scrollbar,
+.element::-webkit-scrollbar {
+    display: none;
+}
+html {
+    scrollbar-width: none;
+}
+/* ========== Scrollbar End ========== */
+
+.btn-proses {
+    border-radius: 10px;
+    background-color: #294b9b;
+    color: #fff;
+    padding: 10px 20px;
+    border: 0;
+}
+
+.btn-proses:hover {
+    background-color: #0e2c70;
+    transition: .4s;
+}
+
+.btn-add {
+    border-radius: 10px;
+    background-color: #03cb5a;
+    color: #fff;
+    padding: 10px 20px;
+    width: 150px;
+    border: 0;
+    float: right;
+}
+.btn-add:hover{
+    background-color: #099345;
+    transition: .4s;
+}
+
+.bt-table{
+    background-color: #0a328d;
+    color: #fff;
+    padding: 10px 0;
+}
